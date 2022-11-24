@@ -44,7 +44,7 @@ IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b><i>{file_name} » {file_size} › [ᎯℕUℛᎯᎶ](https://t.me/MOVIES_ZILAA)</i></b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b><i>{file_name} » {file_size} › [ᎯℕUℛᎯᎶ](https://t.me/MOVIES_ZILAA)</i></b>")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [ᴀᴍ_ᴛᴇᴄʜ](https://t.me/Am_RoBots)")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 𝖳𝗂𝗍𝗅𝖾: <a href={url}>{title}</a> \n🔮 𝖸𝖾𝖺𝗋: {year} \n⭐️ 𝖱𝖺𝗍𝗂𝗇𝗀𝗌: {rating}/ 10 \n🎭 𝖦𝖾𝗇𝖾𝗋𝗌: {genres} \n\n🎊 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [Dk Provider](https://t.me/dkprovider)")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
@@ -72,14 +72,14 @@ URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'shareus.io')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'p1Linu4T1jdSWaGW9W2yCTeKdLH3')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 40))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = ""
+DOWNLOAD_TEXT_URL = "https://youtu.be/4b9np8RCHRs"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Suscribe"
